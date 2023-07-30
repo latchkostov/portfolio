@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+    <title>Latch Kostov - Software Engineer</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="logo">
+        <svg height="40" width="200" xmlns="http://www.w3.org/2000/svg">
+          <text
+            x="0"
+            y="34"
+            fill="white"
+            style="font-size: 2em; font-weight: bold"
+          >
+            LK
+          </text>
+        </svg>
+      </div>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+    <div id="avatar">
+      <img src="./images/latch.jpg" alt="Latch Kostov" />
+    </div>
+    <div id="content">
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hello, I'm Latch Kostov, a Full-Stack Developer with a passion for
+          creating responsive and high-performance applications. With a keen
+          understanding of both front-end and back-end technologies, I have
+          honed my skills working with technologies like React and C# to deliver
+          effective solutions to complex problems.
+        </p>
+        <p>
+          In the modern age of web development, where the user experience is
+          paramount, I believe that a truly great application must not only work
+          well on all devices but also be efficient and responsive. This is why
+          I always prioritize responsive design principles when crafting my
+          applications, ensuring that they provide a seamless experience whether
+          viewed on a desktop, tablet, or mobile device.
+        </p>
+        <p>
+          Furthermore, I recognize that performance is crucial. Users demand
+          fast, fluid applications, and delivering on this demand can be the
+          difference between success and failure. That's why I consider
+          performance from the very beginning of the development process, and
+          continually monitor and optimize it throughout. I take pride in
+          writing clean, efficient code that runs smoothly and quickly.
+        </p>
+        <p>
+          My goal as a developer is not just to write code, but to create
+          software that makes a difference. I'm constantly learning, growing,
+          and pushing myself to be better. I look forward to bringing my
+          commitment to quality, performance, and user experience to your
+          projects.
+        </p>
+      </section>
+      <section id="projects">
+        <h2>My Projects</h2>
+        <div id="carousel">
+          <button id="prevBtn">&lt;</button>
+          <div id="carouselSlides">
+            <div class="slide active">
+              <div class="slide-content">
+                <img src="./images/weather.avif" alt="Weather Project" cover />
+                <h3>Weather App</h3>
+                <p>This is a weather application</p>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="slide-content">
+                <img src="./images/weather.avif" alt="Project 2" />
+                <h3>Project 2</h3>
+                <p>Description for project 2</p>
+              </div>
+            </div>
+            <!-- add more slides as needed -->
+          </div>
+          <button id="nextBtn">&gt;</button>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Latch Kostov</p>
+      </div>
+    </footer>
+  </body>
+</html>
